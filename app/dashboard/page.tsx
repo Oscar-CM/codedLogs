@@ -63,7 +63,7 @@ const Dashboard = () => {
   return (
     <div className='flex flex-col m-2'>
 
-      <h1 className='text-red-500 text-xl'> TODAY'S OFFERS</h1>
+      <h1 className='text-red-500 text-xl'> TODAYS OFFERS</h1>
       <div className='w-full'>
         <Table>
           <TableCaption>A list of the Current Products.</TableCaption>
@@ -95,7 +95,7 @@ const Dashboard = () => {
                   height={5}
                   alt="chase"
                 /></TableCell>
-                <TableCell className=' text-center'><p className='p-2 m-2 bg-blue-500 border-rounded'> Details</p></TableCell>
+                <TableCell className='text-center'><p className='p-2 m-2 bg-blue-500 border-rounded'> Details</p></TableCell>
 
               </TableRow>
             ))}
