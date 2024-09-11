@@ -8,8 +8,7 @@ import {
   SignedOut,
   UserButton
 } from '@clerk/nextjs'
-import Dashboard from "./components/dashboard";
-import { Button } from "@/components/ui/button"
+
 import Navbar from "@/components/navbar";
 
 
