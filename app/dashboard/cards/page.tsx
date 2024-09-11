@@ -34,7 +34,7 @@ const Cards = () => {
       <Carousel className=''>
         <CarouselContent className=''>
           {cardContent.map((card) => (
-            <CarouselItem className='md:basis-1/5 basis-1/2'>
+            <CarouselItem key={card.id} className='md:basis-1/5 basis-1/2'>
               <div className='p-2 bg-slate-600 rounded-xl'>
                 <Image
                   src={card.image}

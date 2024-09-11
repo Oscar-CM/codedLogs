@@ -43,7 +43,7 @@ const Categories = () => {
                 <CarouselContent>
                     
                         {myCategories.map((bank) => (
-                            <CarouselItem className='md:basis-1/5 basis-1/2'> 
+                            <CarouselItem key={bank.name} className='md:basis-1/5 basis-1/2'> 
                             <div className=' m-2'>
                                 
                                 {bank.name}
